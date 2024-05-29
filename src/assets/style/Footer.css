@@ -52,11 +52,11 @@ a {
     text-decoration: none;
     color: #fff;
 }
-.social {
+.footer1 .social {
     display: flex;
     justify-content: space-around;
 }
-.social li {
+.footer1 .social li {
     width: 40px;
     height: 40px;
     background-color: #fff;
@@ -65,16 +65,16 @@ a {
     border-radius: 50%;
     cursor: pointer;
 }
-.social li:hover {
+.footer1 .social li:hover {
     background-color: #ff8500;
 }
-.social li:hover a{
+.footer1 .social li:hover a{
     color: white;
 } 
 .list4 .item1 {
     text-align: center;
 }
-.social li a {
+.footer1 .social li a {
     color: #282828;
     cursor: pointer;
 }

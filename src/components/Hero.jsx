@@ -15,7 +15,7 @@ const Hero = () => {
                 <img className="hero-pattern" src="pattren.png" alt="" />
             </div>
             <div className="hero-part2">
-                <div className="social">
+                <div className="socials">
                     <div className="social1">
                         <a href="https://www.facebook.com/focal.x.agency/"><FontAwesomeIcon icon={faFacebookF} /></a>
                     </div>

@@ -17,10 +17,10 @@
     top: 0;
 }
 .hero-pattern {
-    width: 150px;
+    width: 140px;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 30px;
     z-index: 25;
 }
 .hero-game {
@@ -75,7 +75,7 @@
     left: 0;
     bottom: 0;
 }
-.social {
+.hero-part2 .socials {
     display: flex;
     z-index: 20;
 }
@@ -164,7 +164,7 @@
     }
     .hero-part2 {
         /* height: 100px; */
-        padding: 40px 40px 0;
+        padding: 70px 40px 0;
         flex-direction: column;
         justify-content: start;
         align-items: start;
@@ -190,7 +190,7 @@
         width: 100px;
         top: 130px;
     }
-    .social {
+    .hero-part2 .socials {
         padding-bottom: 5px;
     }
 }
@@ -203,10 +203,11 @@
     }
     .hero-part2 {
         /* height: 100px; */
-        padding: 30px 40px 0;
-        flex-direction: column;
+        padding: 80px 40px 0;
+        /* flex-direction: column; */
         justify-content: start;
         align-items: start;
+        gap: 10px;
     }
     .hero-part1 p {
         font-size: 18px;
@@ -217,34 +218,34 @@
         font-size: 28px;
         padding-bottom: 10px;
     }
-    .copyright p {
+    /* .copyright p {
         width: 200px;
-    }
+    } */
     .social1, .social2, .social3, .social4, .social5 {
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
         padding: 5px 0 0 5px;
     }
     .hero-game {
         width: 130px;
         right: 10px;
-        bottom: 35px;
+        bottom: 25px;
     }
     .hero-start {
         width: 150px;
         right: 60px;
-        bottom: 95px;
+        bottom: 85px;
     }
     .start {
-        bottom: 125px;
+        bottom: 115px;
         right: 170px;
         font-size: 25px;
     }
     .hero-pattern {
         width: 70px;
-        top: 230px;
+        top: 250px;
     }
-    .social {
+    .hero-part2 .socials {
         padding-bottom: 5px;
     }
 }
@@ -253,17 +254,19 @@
         height: 100vh;
     }
     .hero-part1 {
-        padding: 20px 20px 60px;
+        padding: 20px 20px 30px;
     }
     .hero-part2 {
         /* height: 100px; */
-        padding: 30px 20px 0;
-        flex-direction: column;
+        /* padding: 30px 20px 0; */
+        /* flex-direction: column; */
+        padding-left: 20px;
+        padding-right: 20px;
         justify-content: start;
         align-items: start;
     }
     .hero-part1 p {
-        font-size: 18px;
+        font-size: 16px;
         width: 270px;
         line-height: 1.5;
     }
@@ -271,26 +274,30 @@
         font-size: 24px;
         padding-bottom: 10px;
     }
+    .copyright {
+        padding-top: 20px;
+    }
     .copyright p {
-        width: 200px;
+        width: 300px;
+        font-size: 12px;
     }
     .social1, .social2, .social3, .social4, .social5 {
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
         padding: 5px 0 0 5px;
     }
     .hero-game {
         width: 95px;
         right: 10px;
-        bottom: 35px;
+        bottom: 15px;
     }
     .hero-start {
         width: 140px;
         right: 50px;
-        bottom: 78px;
+        bottom: 58px;
     }
     .start {
-        bottom: 105px;
+        bottom: 90px;
         right: 153px;
         font-size: 25px;
     }
@@ -298,7 +305,19 @@
         width: 60px;
         top: 300px;
     }
-    .social {
-        padding-bottom: 5px;
-    }
+    .hero-part2 .socials {
+        position: absolute;
+    bottom: 50px;
+    left: 20px;
+    display: block;
+        }
+        .social1, .social2, .social3, .social4, .social5 {
+            background-color: #ff8500;
+            width: 25px;
+            height: 25px;
+            margin-bottom: 4px;
+        }
+        .social1 a, .social2 a, .social3 a, .social4 a, .social5 a { 
+            color: white;
+        }
 }
