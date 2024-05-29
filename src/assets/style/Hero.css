@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero2 {
+    display: none;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.hero-part1 {
+    padding: 127px 40px 80px;
+    position: relative;
+    top: 0;
+}
+.hero-pattern {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.hero-game {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    width: 300px;
+}
+.hero-start {
+    position: absolute;
+    right: 115px;
+    bottom: 150px;
+}
+.start {
+    position: absolute;
+    text-decoration: none;
+    color: #ff8500;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 230px;
+    right: 340px;
+}
+.hero-part1 h1 {
+    font-size: 33px;
+    padding-bottom: 20px;
+    color: #ff8500;
+    font-weight: bolder;
+}
+.hero-part1 p {
+    width: 540px;
+    line-height: 1.7;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+}
+.hero-part1 p span {
+    font-weight: bold;
+}
+.hero-part2 {
+    padding: 120px 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 173px;
+    background-image: url(fotter.svg);
+}
+.social {
+    display: flex;
+}
+.social1 , .social2 , .social3 , .social4 , .social5 {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 8px;
+    padding: 7px 0 0 7px;
+    border-radius: 50%;
+}
+.social1 a , .social2 a , .social3 a , .social4 a , .social5 a {
+    color: #ff8500;
+    cursor: pointer;
+    /* text-align: center; */
+}
+.copyright p {
+    color: #fff;
+}
+.copyright p .copy {
+    font-size: 14px;
+}
+@media (min-width:991px) and (max-width:1326px) {
+    .hero {
+        height: 100vh;
+    }
+    .hero-part1 {
+        padding: 80px 40px 40px;
+    }
+    .hero-game {
+        width: 200px;
+        right: 10px;
+        bottom: 35px;
+    }
+    .hero-start {
+        width: 200px;
+        right: 90px;
+        bottom: 120px;
+    }
+    .start {
+        bottom: 170px;
+        right: 240px;
+    }
+}
+@media (min-width:850px) and (max-width:990px) {
+    .hero {
+        height: 100vh;
+    }
+    .hero-part1 {
+        padding: 80px 40px 0px;
+    }
+    .hero-game {
+        width: 200px;
+        right: 10px;
+        bottom: 35px;
+    }
+    .hero-start {
+        width: 200px;
+        right: 90px;
+        bottom: 120px;
+    }
+    .start {
+        bottom: 170px;
+        right: 240px;
+    }
+    .hero-pattern {
+        width: 130px;
+        top: 60px;
+    }
+    .hero-part1 p {
+        width: 500px;
+    }
+    .logo {
+        width: 50%;
+    }
+}
+@media (min-width:700px) and (max-width:849px) {
+    .hero {
+        height: 100vh;
+    }
+    .hero-part1 {
+        padding: 50px 40px 70px;
+    }
+    .hero-part2 {
+        height: 100px;
+        padding: 40px 40px 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .hero-part1 p {
+        width: 500px;
+    }
+    .hero-game {
+        width: 140px;
+        right: 10px;
+        bottom: 40px;
+    }
+    .hero-start {
+        width: 200px;
+        right: 65px;
+        bottom: 100px;
+    }
+    .start {
+        bottom: 150px;
+        right: 215px;
+    }
+    .hero-pattern {
+        width: 100px;
+        top: 130px;
+    }
+    .social {
+        padding-bottom: 5px;
+    }
+}
+@media (min-width:450px) and (max-width:699px) {
+    .hero {
+        height: 100vh;
+    }
+    .hero-part1 {
+        padding: 20px 40px 120px;
+    }
+    .hero-part2 {
+        height: 100px;
+        padding: 30px 40px 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .hero-part1 p {
+        font-size: 18px;
+        width: 400px;
+        line-height: 1.5;
+    }
+    .hero-part1 h1 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .copyright p {
+        width: 200px;
+    }
+    .social1, .social2, .social3, .social4, .social5 {
+        width: 25px;
+        height: 25px;
+        padding: 5px 0 0 5px;
+    }
+    .hero-game {
+        width: 130px;
+        right: 10px;
+        bottom: 35px;
+    }
+    .hero-start {
+        width: 150px;
+        right: 60px;
+        bottom: 95px;
+    }
+    .start {
+        bottom: 125px;
+        right: 170px;
+        font-size: 25px;
+    }
+    .hero-pattern {
+        width: 70px;
+        top: 230px;
+    }
+    .social {
+        padding-bottom: 5px;
+    }
+}
+@media (min-width:320px) and (max-width:449px) {
+    .hero {
+        height: 100vh;
+    }
+    .hero-part1 {
+        padding: 20px 20px 60px;
+    }
+    .hero-part2 {
+        height: 100px;
+        padding: 30px 20px 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .hero-part1 p {
+        font-size: 18px;
+        width: 270px;
+        line-height: 1.5;
+    }
+    .hero-part1 h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .copyright p {
+        width: 200px;
+    }
+    .social1, .social2, .social3, .social4, .social5 {
+        width: 25px;
+        height: 25px;
+        padding: 5px 0 0 5px;
+    }
+    .hero-game {
+        width: 95px;
+        right: 10px;
+        bottom: 35px;
+    }
+    .hero-start {
+        width: 140px;
+        right: 50px;
+        bottom: 78px;
+    }
+    .start {
+        bottom: 105px;
+        right: 153px;
+        font-size: 25px;
+    }
+    .hero-pattern {
+        width: 60px;
+        top: 300px;
+    }
+    .social {
+        padding-bottom: 5px;
+    }
+}

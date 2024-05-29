@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #222222;
+}
+.part1 {
+    margin: 40px 40px 30px;
+}
+.part2 {
+    padding-bottom: 30px;
+    margin: 80px 40px 0;
+    border-bottom: 1px solid #fff;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer1 .part2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .list , .list1 , .list2 , .list3 , .list4 , .list1-1 , .list2-1 {
+    list-style: none;
+}
+.part1 img {
+    width: 180px;
+    padding-bottom: 30px;
+}
+.list .item1 , .list1 .item1 , .list2 .item1 , .list3 .item1 , .list4 .item1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.list1-1 .item1 , .list2-1 .item1 {
+    padding-top: 15px;
+    color: #fff;
+}
+.list .item2 , .list .item3, .list1 .item3 , .list1 .item2, .list1 .item3 , .list1-1 .item2, .list1-1 .item3 ,
+.list2 .item2, .list2 .item3 , .list2-1 .item2 , 
+.list3 .item2 , .list3 .item3 ,.list3 .item4
+{
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+.social li {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-right: 8px;
+    padding: 12px 0 0 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social li:hover {
+    background-color: #ff8500;
+}
+.social li:hover a{
+    color: white;
+} 
+.list4 .item1 {
+    text-align: center;
+}
+.social li a {
+    color: #282828;
+    cursor: pointer;
+}
+.footer2 {
+    color: #fff;
+    padding: 0 0 20px 40px;
+    font-size: 17px;
+}
+@media (min-width:991px) and (max-width:1200px) {
+    .footer1 .part2 {
+        flex-wrap: wrap;
+    }
+    .footer .list4 {
+        margin-top: 15px;
+    }
+    .footer2 p {
+        padding-top: 10px;
+    }
+}
+@media (min-width:850px) and (max-width:990px) {
+    .footer1 .part2 {
+        flex-wrap: wrap;
+    }
+    .footer .list3 , .footer .list4 {
+        margin-top: 15px;
+    }
+    .footer2 p {
+        padding-top: 10px;
+    }
+}
+@media (min-width:700px) and (max-width:849px)  {
+    .footer1 .part2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .footer1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer1 .list4 {
+        padding-top: 10px;
+    }
+    .footer2 p {
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+@media (min-width:450px) and (max-width:699px) {
+    .footer1 .part2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin: 20px 40px 0;
+    }
+    .part1 {
+        margin: 40px 40px 0px;
+    }
+    .footer1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer1 .list4 {
+        padding-top: 10px;
+    }
+    .footer1 .list2 , .footer1 .list3 {
+        padding-left: 15px;
+    }
+    .footer1 .list4 .item1 {
+        padding-right: 25px;
+    }
+    .footer2 p {
+        padding-top: 10px;
+        text-align: center;
+    }
+}
+@media (min-width:320px) and (max-width:449px) {
+    .footer1 .part2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin: 20px 40px 0;
+    }
+    .part1 {
+        margin: 40px 40px 0px;
+    }
+    .footer1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer1 .list4 {
+        padding-top: 10px;
+    }
+    .footer1 .list2 , .footer1 .list3 {
+        padding-left: 15px;
+    }
+    .footer1 .list4 .item1 {
+        padding-right: 25px;
+    }
+    .footer2 {
+        padding: 0 20px 0 20px;
+    }
+    .footer2 p {
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,52 @@
+/* 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-color:lightskyblue;
+}
+.all {
+    padding: 200px ;
+}
+.all button {
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.all button:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+import { useState } from "react"
+import './assets/style/cc.css'
+const App = () => {
+  const [show , setShow] = useState(true);
+  const showImage = () => {
+      setShow(!show)
+  }
+  return (
+        <section className={show ? 'section' :'section2'}>
+          <div className='all'>
+            <button onClick={showImage}>Delete</button>
+            <button onClick={showImage}>Show</button>
+          </div>
+        </section>
+      )
+    }
+
+export default App */
