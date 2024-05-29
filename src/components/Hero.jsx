@@ -37,6 +37,7 @@ const Hero = () => {
                 </div>
                 <img className="hero-game" src="gameBoy-min.png" alt="" />
                 <img className="hero-start" src="pressStart.svg" alt="" />
+                <img className="imgFooter" src="fotter.svg" alt="imgFooter" />
                 <a className="start" href="#">START</a>
             </div>
         </section>
