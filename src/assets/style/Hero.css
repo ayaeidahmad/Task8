@@ -59,11 +59,11 @@
     font-weight: bold;
 }
 .hero-part2 {
-    padding: 120px 40px 0;
+    padding: 145px 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 173px;
+    /* height: 173px; */
     background-image: url(./../../../public/fotter.svg);
 }
 .social {
@@ -150,7 +150,7 @@
         padding: 50px 40px 70px;
     }
     .hero-part2 {
-        height: 100px;
+        /* height: 100px; */
         padding: 40px 40px 0;
         flex-direction: column;
         justify-content: start;
@@ -189,7 +189,7 @@
         padding: 20px 40px 120px;
     }
     .hero-part2 {
-        height: 100px;
+        /* height: 100px; */
         padding: 30px 40px 0;
         flex-direction: column;
         justify-content: start;
@@ -243,7 +243,7 @@
         padding: 20px 20px 60px;
     }
     .hero-part2 {
-        height: 100px;
+        /* height: 100px; */
         padding: 30px 20px 0;
         flex-direction: column;
         justify-content: start;
