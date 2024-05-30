@@ -279,9 +279,9 @@
         font-size: 24px;
         padding-bottom: 10px;
     }
-    /* .copyright {
-        padding-top: 200px;
-    } */
+    .copyright {
+        padding-top: 155px;
+    }
     .copyright p {
         width: 300px;
         font-size: 12px;
@@ -312,17 +312,17 @@
     }
     .hero-part2 .socials {
         position: absolute;
-    bottom: 50px;
-    left: 20px;
-    display: block;
-        }
-        .social1, .social2, .social3, .social4, .social5 {
-            background-color: #ff8500;
-            width: 25px;
-            height: 25px;
-            margin-bottom: 4px;
-        }
-        .social1 a, .social2 a, .social3 a, .social4 a, .social5 a { 
-            color: white;
-        }
+        bottom: 35px;
+        left: 20px;
+        display: block;
+    }
+    .social1, .social2, .social3, .social4, .social5 {
+        background-color: #ff8500;
+        width: 25px;
+        height: 25px;
+        margin-bottom: 4px;
+    }
+    .social1 a, .social2 a, .social3 a, .social4 a, .social5 a { 
+        color: white;
+    }
 }
