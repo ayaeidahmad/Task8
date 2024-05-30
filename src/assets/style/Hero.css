@@ -63,7 +63,7 @@
     font-weight: bold;
 }
 .hero-part2 {
-    padding: 100px 40px 0;
+    padding: 130px 40px 0;
     /* width: 100%;
     position: absolute;
     bottom: 0; */
@@ -139,6 +139,9 @@
     }
     .hero-part1 {
         padding: 80px 40px 0px;
+    }
+    .hero-part2 {
+        padding: 100px 40px 0;
     }
     .hero-part1 {
         padding: 120px 40px 0;
