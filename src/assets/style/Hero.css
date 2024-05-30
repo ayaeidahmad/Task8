@@ -63,7 +63,12 @@
     font-weight: bold;
 }
 .hero-part2 {
-    padding: 100px 40px 0;
+    /* padding: 100px 40px 0; */
+    /*  */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /*  */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,6 +83,11 @@
 }
 .hero-part2 .socials {
     display: flex;
+    /*  */
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    /*  */
     z-index: 20;
 }
 .social1 , .social2 , .social3 , .social4 , .social5 {
@@ -98,6 +108,11 @@
 }
 .copyright p {
     color: #fff;
+    /*  */
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    /*  */
 }
 .copyright p .copy {
     font-size: 14px;
@@ -255,7 +270,7 @@
 }
 @media (min-width:320px) and (max-width:449px) {
     .hero {
-        height: calc(100vh - 41px);
+        height: 100vh ;
     }
     .hero-part1 {
         padding: 20px 20px 0px;
@@ -280,7 +295,7 @@
         padding-bottom: 10px;
     }
     .copyright {
-        padding-top: 155px;
+        padding-top: 200px;
     }
     .copyright p {
         width: 300px;
