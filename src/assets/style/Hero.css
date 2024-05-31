@@ -111,14 +111,7 @@
 .copyright p .copy {
     font-size: 14px;
 }
-@media (min-width:140px) {
-    .hero {
-        height: 100vh;
-    }
-    .hero-part1 {
-        padding: 250px 40px 40px;
-    }
-}
+
 @media (min-width:991px) and (max-width:1326px) {
     .hero {
         height: 100vh;
